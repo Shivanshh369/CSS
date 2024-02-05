@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex property justify</title>
+
+<style>
+    *{
+     margin: 0;
+     padding: 0;
+    }
+    #container{
+        height: 500px;
+        width: 500px;
+        padding: 10px;
+        margin: 20px;
+        background-color: aquamarine;
+        border-radius: 20px;
+        border: 3px solid gray;
+ /*display felx; for alng justify content type: flex start, felx end,center, space between, space around, space evenly */
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .box{
+        height: 100px;
+        width: 100px;
+        margin: 7px;
+        border: 2px solid cyan;
+    }
+    #box1{background-color: blue;}
+    #box2{background-color: red;}
+    #box3{background-color: rebeccapurple;}
+    #box4{background-color: darkgoldenrod;}
+
+    </style>
+
+</head>
+<body>
+    <h1 style="text-align: center;">flex container</h1>
+    <div id="container">
+  <div id="box1" class="box">flex item 1</div>
+  <div id="box2" class="box">flex item 2</div>
+  <div id="box3" class="box">flex item 3</div>
+  <div id="box4" class="box">flex item 4</div>
+
+
+    </div>
+</body>
+</html>
