@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+
+    <style>
+ *{
+    margin: 0;
+    padding: 0;
+
+ }
+ #heading{
+    text-align: center;
+ }
+ #container{
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+    margin: 50px;
+    border: 3px double olivedrab;
+    background-color: aqua;
+    
+/*here in flex box we have 4 option to give a sequence of items : row , row reverse , column , column reverse*/
+    display: flex;
+    flex-direction: row-reverse;
+ }
+ .box{
+    height: 100px;
+    width: 100px;
+    border: 2px double hotpink;
+    margin: 4px;
+ }
+ #box1{background-color: blue;}
+ #box2{background-color: blueviolet;}
+ #box3{background-color: brown;}
+ #box4{background-color: cadetblue;}
+
+
+    </style>
+</head>
+<body>
+    <header id="heading">this is flex box</header>
+<div id="container">
+  <div id="box1" class="box">box1</div>
+  <div id="box2" class="box">box2</div>
+  <div id="box3" class="box">box3</div>
+  <div id="box4" class="box">box4</div>
+
+</div>    
+</body>
+</html>

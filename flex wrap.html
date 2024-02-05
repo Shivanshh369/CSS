@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex container(flex wrap)</title>
+</head>
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border: 3px solid black;
+    margin: 5px;
+}
+#heading{text-align: center;}
+#container{
+    height: 600px;
+    width: 600px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid rgb(196, 41, 183);
+    background-color: darkcyan;
+/* flex wrap: nowrap, wrap, reverse wrap */
+    display: flex;
+    flex-wrap: nowrap;
+}
+#box1{background-color: aqua;}
+#box3{background-color: antiquewhite;}
+#box4{background-color: aquamarine;}
+#box5{background-color: bisque;}
+#box6{background-color: burlywood;}
+#box7{background-color: cornflowerblue;}
+
+
+</style>
+<body>
+    <h1 id="heading">flex container</h1>
+    
+    <div id="container">
+
+    <div id="box1" class="box">flex box 1</div>
+    <div id="box2" class="box">flex box 2</div>
+    <div id="box3" class="box">flex box 3</div>
+    <div id="box4" class="box">flex box 4</div>
+    <div id="box5" class="box">flex box 5</div>
+    <div id="box6" class="box">flex box 6</div>
+    <div id="box7" class="box">flex box 7</div>
+
+    </div>
+</body>
+</html>
