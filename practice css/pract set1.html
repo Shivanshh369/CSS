@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice set 1</title>
+    <link rel="stylesheet" href="index.css"> <!--for external css-->
+
+
+<style>
+    #heading{
+        color: black; /*internal css*/
+    }
+
+
+    #div_22{
+        color: blue; font-size: larger; /* id selector*/
+    }
+
+    p{
+        color: aqua; block-size: auto;    /*element selector*/
+    }                         
+
+    .speacial_heading{
+        color: chocolate; font-style: italic;   /*class selector*/
+    }
+
+#first,#second{
+    color: cadetblue; font-style: unset; 
+}
+
+</style>
+
+</head>
+<body>
+
+    <h1 style="color: red;">this is my heading</h1>
+     <hr>
+
+    <div id="heading" style="color: darkblue;"> this is heaading</div> <!--Inline Css-->
+
+    <!--Priority: inline first then internal then external-->
+    <hr>
+
+
+    <div id="div_22" >div</div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ratione et iure saepe optio earum!</p>
+
+    <h1 class="speacial_heading">Heading 12</h1>
+    <hr>
+
+    <div id="first">HEY DIV</div>
+    <div id="second">HEY DIV2</div>
+
+
+</body>
+</html>
