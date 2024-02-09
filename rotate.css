@@ -1,0 +1,18 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: aqua;
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+    transition: all 0.5 ease-in-out;
+    
+}
+/*rotatex and rotatey and rotatez*/
+.box:hover{
+    transform: rotatey(45deg);
+}

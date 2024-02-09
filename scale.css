@@ -1,0 +1,18 @@
+.box{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aquamarine;
+    
+
+
+    transition: all 1sec ease-in-out;
+    
+}
+/* scale and scalex and scaley*/
+.box:hover{
+    transform: scalex(2);
+}
